@@ -167,7 +167,8 @@ col_feed, col_bets = st.columns([2, 1])
 
 with col_feed:
     st.markdown("### 📢 The Referee's Notice Board")
-    st.toast("**May 28:** Tandukar has offered a peace treaty which will be held at TGIF on a Thursday.", duration=20, icon="📅")
+    st.info("**May 28:** The ref ate a lot of food. He is now shy.")
+    st.info("**May 28:** Tandukar has offered a peace treaty which will be held at TGIF on a Thursday.")
     st.error("🚨 **May 25:** Marauchi ate 3 burgers, 2 hashed browns, 5 pieces of nuggets, an udon and 3 tempuras without the referee. The referee compensated by having Cheetos.")
     st.success("🍏 **May 24:** A deep gut-cleanse was done by all parties.")
     st.warning("⚠️ **May 22:** Tandukar lied about sharing food and made his younger brother take the burden. These kinds of antics are discouraged.")
